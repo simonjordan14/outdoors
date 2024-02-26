@@ -17,8 +17,19 @@
     color: $color-grey-dark;
     border-radius: 10rem;
 
+
     &::after {
         background-color: $color-white;
+    }
+}
+
+&--green{
+    background-color: $color-primary;
+    color: $color-white;
+    border-radius: 10rem;
+
+    &::after {
+        background-color: $color-primary;
     }
 }
 
